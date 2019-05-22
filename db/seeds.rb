@@ -518,5 +518,5 @@ product_list = [
 ]
 
 product_list.each do |id, name, price, description|
-    Product.create(id: id, name: name, price: price, description: description)
+    Product.create( name: name, price: price, description: description)
 end
